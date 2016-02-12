@@ -21,6 +21,9 @@ addSbtPlugin("org.ensime" % "ensime-sbt" % "0.3.2")
 
 Alternatively, copy the `EnsimePlugin.scala` into your `project` directory and make sure you have `scalariform` and `scalap` on your project definition's classpath. This approach works well in environments that do not have access to maven central.
 
+**Please make sure to install [sbt-extras](https://github.com/paulp/sbt-extras)**, otherwise the project compilation might fail with a `java.lang.OutOfMemoryError` or `java.lang.StackOverflowError`.
+
+
 
 ## Commands
 
